@@ -16,7 +16,7 @@ To run this project locally, follow these steps:
 1. Clone the repository
 
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/MiloosN5/PYTHON__BASICS.git
    cd your-repo-name
 
 2. Create and activate a virtual environment:
