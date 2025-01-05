@@ -9,6 +9,7 @@ Choose an appropriate branch name that corresponds to the lesson title.
 
 1. Data types
 2. Numbers
+3. Text
 
 ## Working locally
 
