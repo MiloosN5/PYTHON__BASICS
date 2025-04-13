@@ -37,7 +37,17 @@ console.print(r"First line.\nSecond line.") # First line.\nSecond line.
 # multiline
 
 console.print("""\
-List for shopping
+List for shopping1
+     -Fish
+     -Bread
+""")
+'''
+List for shopping1
+     -Fish
+     -Bread
+'''
+console.print("""
+List for shopping2
      -Fish
      -Bread
 """)
@@ -46,6 +56,27 @@ List for shopping
      -Fish
      -Bread
 '''
+console.print("""\
+List for shopping3
+     Fish
+     Bread
+""")
+'''
+List for shopping3
+     Fish
+     Bread
+'''
+console.print("""
+List for shopping4
+     Fish
+     Bread
+""")
+'''
+List for shopping4
+     Fish
+     Bread
+'''
+
 console.print('Put several strings within parentheses '
         'to have them joined together.') # Put several strings within parentheses to have them joined together. 
 
