@@ -5,12 +5,11 @@ Demonstration of various examples related to different topics/areas in Python.
 
 ## Lessons
 
-Choose an appropriate branch name that corresponds to the lesson title.
-
-1. Data types
-2. Numbers
-3. Text
-4. Lists
+Choose an appropriate branch name that corresponds to the lesson title:
+   1. Data types
+   2. Numbers
+   3. Text
+   4. Lists
 
 ## Working locally
 
