@@ -223,7 +223,7 @@ def func_fib1(n):
     console.print()
 
 func_fib1(2000) # 0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597
-console.print(func_fib1) # <function fib at 0x0000022BF51F8680>
+console.print(func_fib1) # <function func_fib1 at 0x0000022BF51F8680>
 func_f1 = func_fib1
 func_f1(100) # 0 1 1 2 3 5 8 13 21 34 55 89
 
