@@ -50,7 +50,7 @@ console.print(for_users1) # {'Jack': 'active', 'Michael': 'active'}
 
 ## Create a new collection
 for_active_users1 = {}
-for user, status in for_active_users1.items():
+for user, status in for_users1.items():
     if status == 'active':
         for_active_users1[user] = status
 console.print(for_active_users1) # {'Jack': 'active', 'Michael': 'active'}
