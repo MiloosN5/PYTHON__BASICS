@@ -55,6 +55,23 @@ for user, status in for_users1.items():
         for_active_users1[user] = status
 console.print(for_active_users1) # {'Jack': 'active', 'Michael': 'active'}
 
+# WHILE STATEMENT
+
+## Fibonacci series
+while_a, while_b = 0, 1
+while while_a < 10:
+    print(while_a)
+    while_a, while_b = while_b, while_a+while_b
+'''
+0
+1
+1
+2
+3
+5
+8
+'''
+
 # The range() Function
 
 for i in range(5):
@@ -138,6 +155,16 @@ for n in range(2, 10):
 8 equals 2 * 4
 9 equals 3 * 3
 '''
+
+# RAISE STATEMENT
+
+def raise_num(input_num):
+    if input_num < 0:
+        raise ValueError("The number cannot be negative!")  
+    return input_num
+
+console.print(raise_num(5))  # 5 
+#console.print(raise_num(-2)) # ValueError: The number cannot be negative!
 
 # PASS STATEMENT
 
@@ -239,4 +266,26 @@ def func_fib2(n):
 
 func_f2 = func_fib2(100)    
 console.print(func_f2) # [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89] 
+
+# ERROR HANDLING (TRY BLOCK + EXCEPT & FINALLY CLAUSES)
+
+def error_divide(a, b):
+    try:
+        result = a / b
+        print(f"Result is: {result}")
+    except ZeroDivisionError:
+        print("Error: division by zero is not allowed.")
+    finally:
+        print("This message is always executed.")
+
+error_divide(10, 2) 
+'''
+Result is: 5.0
+This message is always executed.
+'''
+error_divide(5, 0)  
+'''
+Error: division by zero is not allowed.
+This message is always executed.
+'''
 
