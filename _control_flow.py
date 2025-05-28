@@ -272,11 +272,11 @@ console.print(func_f2) # [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 def error_divide(a, b):
     try:
         result = a / b
-        print(f"Result is: {result}")
+        console.print(f"Result is: {result}")
     except ZeroDivisionError:
-        print("Error: division by zero is not allowed.")
+        console.print("Error: division by zero is not allowed.")
     finally:
-        print("This message is always executed.")
+        console.print("This message is always executed.")
 
 error_divide(10, 2) 
 '''
