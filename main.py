@@ -1,5 +1,5 @@
-# import _data_types
-# import _numbers
-# import _text
-# import _lists
-import _control_flow
+# from lessons import data_types
+# from lessons import numbers
+# from lessons import text
+# from lessons import lists
+from lessons import control_flow
