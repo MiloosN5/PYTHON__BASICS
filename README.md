@@ -21,16 +21,18 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/MiloosN5/PYTHON__BASICS.git
    cd PYTHON__BASICS
+   ```
 
 2. Create and activate a virtual environment:
 
     ```bash
     python -m venv venv
-    source venv/bin/activate   # On macOS/Linux
-    venv\Scripts\activate      # On Windows
+    venv\Scripts\activate # On Windows
+    ```
 
 3. Install dependencies:
 
+   Before installing dependencies, make sure your virtual environment is activated (see step 2 from above)!
     ```bash 
     pip install -r requirements.txt
 
@@ -39,3 +41,13 @@ To run this project locally, follow these steps:
     ```bash
     python main.py
 
+***Additional:***
+
+5. Update requirements.txt When You Add New Packages
+
+    Whenever you install a new package (e.g. with pip install package-name), make sure to refresh your requirements.txt.
+
+    Run this command to update the file:
+    ```bash
+        pip freeze > requirements.txt
+    ```
