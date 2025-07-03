@@ -2,6 +2,9 @@
 
 Demonstration of various examples related to different topics/areas in Python.
 
+## References
+
+   - [Python Documentation](https://docs.python.org/3/tutorial/index.html)
 
 ## Lessons
 
@@ -11,6 +14,7 @@ Choose an appropriate branch name that corresponds to the lesson title:
    3. Text
    4. Lists
    5. Control flow
+   6. Functions
 
 ## Working locally
 
