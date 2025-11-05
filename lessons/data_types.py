@@ -120,5 +120,8 @@ console.print(type(...)) # <class 'ellipsis'>
 ## NotImplemented
 console.print(type(NotImplemented)) # <class 'NotImplementedType'>
 
+## enumerate
+console.print(type(enumerate([1, 2, 3]))) # <class 'enumerate'>
+
 
 
